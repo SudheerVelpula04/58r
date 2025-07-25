@@ -8,69 +8,33 @@
 <body>
     <!--
     audio
+    video
 
+        pattern="123"
+        pattern="."-any value in side a keyboard exp new line 
+               ="[abc]"any one value [] 
+               ="[abc]+"
+               =[abcdefghijklmnopqrstuvwxyz]+
+               =[a-z] to(-)
+               ="^" start
+               ="$" end 
+               ="[^a-z]" expect
+               ="[A-Z]"
+               ="[^A-Z]"
+               ="[0-9]"
+               ="/d"-0-9
+               =" "
      -->
-    <!-- <audio controls autoplay loop muted>
-        <source src="" type="audio/mp3">
-    </audio> -->
 
-    <!-- video tag -->
-     <video width="600" controls  muted loop poster="./images/youtube-icon.png">
-        <source src="./video/3129671-uhd_3840_2160_30fps.mp4" type="video/mp4">
-     </video>
-
-     <!--
-     table-tr-3-td-3-video-audio- 
-      -->
-     <table width="100%">
-        <tr align="center">
-            <td>
-                <video width="100%" controls  muted loop poster="./images/youtube-icon.png">
-                    <source src="./video/3129671-uhd_3840_2160_30fps.mp4" type="video/mp4">
-                </video>
-                <details>
-                    <summary>AUDIO</summary>
-                    <audio src="" controls>
-
-                    </audio>
-                </details>
-            </td>
-            <td>
-                <video width="100%" controls  muted loop poster="./images/youtube-icon.png">
-                    <source src="./video/3129671-uhd_3840_2160_30fps.mp4" type="video/mp4">
-                 </video>
-                   <details>
-                    <summary>AUDIO</summary>
-                    <audio src="" controls>
-
-                    </audio>
-                </details>
-            </td>
-            <td>
-                <video width="100%" controls  muted loop poster="./images/youtube-icon.png">
-                    <source src="./video/3129671-uhd_3840_2160_30fps.mp4" type="video/mp4">
-                </video>
-                  <details>
-                    <summary>AUDIO</summary>
-                    <audio src="" controls>
-
-                    </audio>
-                </details>
-
-            </td>
-            <td>
-                <video width="100%" controls  muted loop poster="./images/youtube-icon.png">
-                    <source src="./video/3129671-uhd_3840_2160_30fps.mp4" type="video/mp4">
-                </video>
-                  <details>
-                    <summary>AUDIO</summary>
-                    <audio src="" controls>
-
-                    </audio>
-                </details>
-            </td>
-        </tr>
-     </table>
+    <form action="./submit.html">
+        <!-- <input type="text" name="num"  pattern="123" title="enter 123" placeholder="enter 123"> -->
+        <!-- <input type="text" name="capcha" pattern="A@aH" title="enter A@aH" placeholder="enter A@aH"> -->
+         <!-- <input type="text" name="alp" pattern="abc"> -->
+          <!-- <input type="text" pattern="." placeholder="any value in side a keyboard"> -->
+           <input type="text" pattern="[a-z][A-Z][0-9]">
+           <input type="text" pattern="[a-zA-Z0-9 ]">
+        <input type="submit">
+    </form>
 
 </body>
 </html>
